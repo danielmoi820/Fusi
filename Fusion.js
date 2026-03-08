@@ -16,7 +16,7 @@ module.exports.handler = async function () {
 
     for (const row of rows) {
       const { data, error } = await supabase
-        .from("applicants")
+        .from("internships")
         .insert([
           {
             "Full name": row.name,
