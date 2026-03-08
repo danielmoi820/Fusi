@@ -8,7 +8,7 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 module.exports.handler = async function () {
   try {
-    const sheetURL = "https://opensheet.elk.sh/YOUR_SHEET_ID/Sheet1";
+    const sheetURL = "https://opensheet.elk.sh/ 1JQcDhQenejPU1zEfNPEyeArVVQKy_EZaMvoeA85V0r8/Sheet1";
     const response = await fetch(sheetURL);
     const rows = await response.json();
 
